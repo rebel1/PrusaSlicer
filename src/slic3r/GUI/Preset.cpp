@@ -505,6 +505,10 @@ const std::vector<std::string>& Preset::sla_print_options()
             "pad_object_connector_stride",
             "pad_object_connector_width",
             "pad_object_connector_penetration",
+            "hollowing_enable",
+            "hollowing_min_thickness",
+            "hollowing_quality",
+            "hollowing_closing_distance",
             "output_filename_format",
             "default_sla_print_profile",
             "compatible_printers",
@@ -546,7 +550,6 @@ const std::vector<std::string>& Preset::sla_printer_options()
         s_opts = {
             "printer_technology",
             "bed_shape", "bed_custom_texture", "bed_custom_model", "max_print_height",
-            "bed_shape", "max_print_height",
             "display_width", "display_height", "display_pixels_x", "display_pixels_y",
             "display_mirror_x", "display_mirror_y",
             "display_orientation",
