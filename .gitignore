@@ -12,3 +12,4 @@ xs/assertlib*
 .init_bundle.ini
 local-lib
 usr/local*
+cmake/.vs/*
